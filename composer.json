@@ -3,6 +3,7 @@
     "description": "a simple mvc php for exercise",
     "keywords": ["simpla"],
     "license": "MIT",
+    "version": "1.0.0",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
