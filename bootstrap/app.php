@@ -13,10 +13,6 @@ defined('BASE_PATH') or define('BASE_PATH', dirname(dirname(__FILE__)));
 defined('APP_PATH') or define('APP_PATH', BASE_PATH . '/app');
 //配置文件路径
 defined('CONFIG_PATH') or define('CONFIG_PATH', BASE_PATH . '/config');
-//静态文件路径
-defined('PUBLIC_PATH') or define('PUBLIC_PATH', 'public');
-//上传地址路径
-defined('UPLOAD_PATH') or define('UPLOAD_PATH',  'upload');
 //缓存地址路径
 defined('CACHE_PATH') or define('CACHE_PATH', BASE_PATH . '/cache');
 
