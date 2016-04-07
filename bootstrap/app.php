@@ -17,7 +17,7 @@ defined('CONFIG_PATH') or define('CONFIG_PATH', BASE_PATH . '/config');
 defined('CACHE_PATH') or define('CACHE_PATH', BASE_PATH . '/cache');
 
 //引入自动加载
-require_once 'vendor/autoload.php';
+require_once dirname(dirname(__FILE__)) . '/vendor/autoload.php';
 
 use Illuminate\Bootstrap;
 
