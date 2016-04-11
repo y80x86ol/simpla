@@ -11,15 +11,15 @@ use Illuminate\View\View;
 
 class IndexController extends BaseController {
 
-	public function __construct() {
-		parent::__construct();
-	}
+    public function __construct() {
+        parent::__construct();
+    }
 
-	/**
-	 * 首页
-	 */
-	public function actionIndex() {
-		View::make('index');
-	}
+    /**
+     * 首页
+     */
+    public function actionIndex() {
+        echo $this->template->render('index');
+    }
 
 }
