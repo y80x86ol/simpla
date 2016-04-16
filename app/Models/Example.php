@@ -9,28 +9,14 @@
 
 namespace App\Models;
 
-use Illuminate\Http\Model;
+use ActiveRecord\Model;
 
 class Example extends Model {
 
-    protected $table = 'users';
+    static $table_name = 'users';
 
     public function showMessage() {
         echo '<p>I am a Example model message!</p>';
-    }
-
-    public function getUser() {
-        $result = $this->table('users')->select();
-        print_r($result);
-
-        $result2 = $this->table('users')->findOne();
-        print_r($result2);
-
-        $where = array(
-            'name' => 'yang'
-        );
-        $result3 = $this->table('users')->where($where)->select();
-        print_r($result3);
     }
 
 }

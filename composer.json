@@ -9,7 +9,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "y80x86ol/simpla-framework": "1.0.*-dev"
+        "y80x86ol/simpla-framework": "dev-master"
     },
     "autoload": {
         "files": [
