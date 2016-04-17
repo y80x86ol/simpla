@@ -4,16 +4,16 @@
 
 simpla 是一个普通的PHP框架，使用积木式开发而来，使用了众多国内外的核心组件。没有什么特别的地方，只是一个简单普通的PHP框架。
 
-##需求##
+###需求
 - PHP：5.4+
 - PDO
 - Composer
 
-##服务器##
+###服务器
 - apache
 - Nginx
 
-##数据库##
+###数据库
 - MySQL
 - SQLite
 - PostgreSQL
