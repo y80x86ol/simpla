@@ -4,12 +4,12 @@
 
 比如我们有一个model叫Example,指向user表
 
-`
+<pre><code>
 class Example extends Model {
 
     static $table_name = 'users';
 }
-`
+</code></pre>
 
 ###获取
 
@@ -23,12 +23,12 @@ class Example extends Model {
 
 3、根据条件获取值
 
-`
+<pre><code>
 $condition = array(
     'name = ?', 'yang'
 );
 Example::find('all', array('conditions' => $condition));
-`
+</code></pre>
 
 ###更新
 

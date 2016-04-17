@@ -4,7 +4,7 @@
 
 一个标准的控制器如下
 
-`
+<pre><code>
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -14,7 +14,7 @@ class TestController extends BaseController {
         echo 'hello';
     }
 }
-`
+</code></pre>
 
 路由中除去域名后的第一个参数即为控制器名字，第二个参数为方法名字
 
