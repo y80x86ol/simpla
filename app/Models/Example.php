@@ -1,10 +1,7 @@
 <?php
 
 /**
- * Example Model Class.
- * User: ken<695093513@qq.com>
- * Date: 2016/3/25 0025
- * Time: 下午 10:38
+ * 实例model类
  */
 
 namespace App\Models;
