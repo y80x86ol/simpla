@@ -7,7 +7,6 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use Illuminate\View\View;
 
 class IndexController extends BaseController {
 

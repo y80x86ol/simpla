@@ -12,7 +12,6 @@ use Illuminate\Cache\Cache;
 use Illuminate\Config\Config;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\View\View;
 
 class ExampleController extends BaseController {
 
@@ -66,7 +65,7 @@ class ExampleController extends BaseController {
 
         //条件查询
         $condition = array(
-            'name = ?','yang'
+            'name = ?', 'yang'
         );
         $where = Example::find('all', array('conditions' => $condition));
         foreach ($where as $item) {
