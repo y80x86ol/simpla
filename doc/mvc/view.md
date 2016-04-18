@@ -16,6 +16,7 @@ echo $this->template->render('example/public', $data);
 `<?php $this->layout('template', ['title' => $title]) ?>`
 
 `<h1>User Profile</h1>`
+
 `<p>Hello, <?php echo $this->e($name)?></p>`
 
 因为这是一个模板系统，不是模板引擎，你可以直接书写任何PHP语言，而不用担心去学习一门新的模板语言，这也是完全没有必要的。
@@ -23,14 +24,19 @@ echo $this->template->render('example/public', $data);
 因为上面加载了一个layout，所以你还需要一个layout布局页面
 
 `<html>`
+
 `<head>`
+
     `<title><?php echo $this->e($title)?></title>`
+
 `</head>`
+
 `<body>`
 
 `<?php echo $this->section('content')?>`
 
 `</body>`
+
 `</html>`
 
 ###安全输出
