@@ -25,17 +25,19 @@ echo $this->template->render('example/public', $data);
 
 `<html>`
 
-`<head>`
+    `<head>`
 
-    `<title><?php echo $this->e($title)?></title>`
+        `<title>`
+            `<?php echo $this->e($title)?>`
+        `</title>`
 
-`</head>`
+    `</head>`
 
-`<body>`
+    `<body>`
 
-`<?php echo $this->section('content')?>`
+        `<?php echo $this->section('content')?>`
 
-`</body>`
+    `</body>`
 
 `</html>`
 
