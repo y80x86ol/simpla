@@ -78,7 +78,7 @@ $book = Book::all(array('joins' => $join));
 
 11、使用纯sql语句进行查询
 <pre><code>
-$Example = Book::find_by_sql('select title from `books`');
+Example::find_by_sql('select title from `books`');
 </code></pre>
 
 ###创建
