@@ -13,18 +13,15 @@ echo $this->template->render('example/public', $data);
 
 你的模板文件应该像下面这个样子
 
-<pre><code>
 `<?php $this->layout('template', ['title' => $title]) ?>`
 
 `<h1>User Profile</h1>`
 `<p>Hello, <?php echo $this->e($name)?></p>`
-</code></pre>
 
 因为这是一个模板系统，不是模板引擎，你可以直接书写任何PHP语言，而不用担心去学习一门新的模板语言，这也是完全没有必要的。
 
 因为上面加载了一个layout，所以你还需要一个layout布局页面
 
-<pre><code>
 `<html>`
 `<head>`
     `<title><?php echo $this->e($title)?></title>`
@@ -35,7 +32,6 @@ echo $this->template->render('example/public', $data);
 
 `</body>`
 `</html>`
-</code></pre>
 
 ###安全输出
 
