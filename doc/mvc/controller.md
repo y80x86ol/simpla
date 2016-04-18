@@ -21,3 +21,11 @@ class TestController extends BaseController {
 比如：example/hello
 
 将会访问exampleController中的actionHello方法
+
+###控制器归类
+
+当你的项目越来越大的时候，你的控制器需要归类进行操作
+
+Simpla支持在App/Controllers下建立文件夹归类存放你的控制器，你可以给文件夹任意起名，不用担心系统无法找到
+
+但是请注意，你依然需要保证所有控制器名字不一样
