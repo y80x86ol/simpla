@@ -1,3 +1,5 @@
 /vendor/
 /cache/
 /upload/
+/storage/cache/
+/storage/log/
