@@ -15,7 +15,8 @@
         "files": [
         ],
         "classmap": [
-            "app/Libs"
+            "app/Libs",
+            "app/Modules"
         ],
         "psr-4": {
             "App\\": "app/"
