@@ -23,4 +23,7 @@ return [
     'public' => 'public',
     //图片上传存放文件夹，默认为upload
     'storage' => 'storage',
+    //二级域名配置
+    'domain' => [
+    ]
 ];

@@ -4,9 +4,6 @@
  * Bootstrap
  */
 
-/**
- * 定义APP常量
- */
 //基础路径
 defined('BASE_PATH') or define('BASE_PATH', dirname(dirname(__FILE__)));
 
