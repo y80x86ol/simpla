@@ -10,6 +10,9 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 
 class TestController extends BaseController {
+    public function __construct() {
+        parent::__construct();
+    }
     public function actionIndex() {
         echo 'hello';
     }
@@ -29,3 +32,9 @@ class TestController extends BaseController {
 Simpla支持在App/Controllers下建立文件夹归类存放你的控制器，你可以给文件夹任意起名，不用担心系统无法找到
 
 但是请注意，你依然需要保证所有控制器名字不一样
+
+###注意
+
+为了使用视图，你的控制器一定要进行如下操作
+
+`parent::__construct();`
