@@ -9,3 +9,5 @@
     class UsermangerController extends ModuleController {
     
     }
+
+即使你在模块下面，依然可以调用app中默认的model，因为这都是自动加载的
