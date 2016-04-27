@@ -131,5 +131,9 @@ class ExampleController extends BaseController {
         //$data = 'sdfsdf';
         echo $this->template->render('example/public', $data);
     }
+    
+    public function actionError(){
+        echo 'sdfsdf'
+    }
 
 }
