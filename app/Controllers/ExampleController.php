@@ -133,7 +133,7 @@ class ExampleController extends BaseController {
     }
     
     public function actionError(){
-        echo 'sdfsdf'
+        echo 'sdfsdf';//这里去掉分号即可展示错误消息
     }
 
 }
